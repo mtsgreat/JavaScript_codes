@@ -1,2 +1,2 @@
 # JavaScript_codes
- Códigos de Fudamentos de JS
+ No seguinte repositório constarão códigos de JavaScript com base em um curso.
