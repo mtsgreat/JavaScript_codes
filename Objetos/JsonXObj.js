@@ -6,16 +6,16 @@ console.log(JSON.stringify(obj))
 
 // Transformando um JSON em um Objeto
 
-// formatos invalidos
+// formatos inválidos
 //console.log(JSON.parse("{a: 1, b: 2, c: 3}"))
 //console.log(JSON.parse("{'a': 1, 'b': 2, 'c': 3}"))
 
 
-// Formato Valido JSON
+// Formato Válido JSON
 console.log(JSON.parse('{"a": 1, "b": 2, "c": 3}'))
 
 
-// Formatos validos com outos atributos
+// Formatos válidos com outros atributos
 console.log(JSON.parse('{"a": 1.7, "b": "string", "c": true, "d": {}, "e": [] }'))
 
 
