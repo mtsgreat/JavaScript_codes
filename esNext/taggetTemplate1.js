@@ -1,6 +1,6 @@
 // tagget templates = processar o template dentro de uma função
 
-function tag(partes, ...valores){
+function tag(partes, ...valores) {
     console.log(partes)
     console.log(valores)
 
@@ -9,6 +9,6 @@ function tag(partes, ...valores){
 
 const aluno = 'Gui'
 const situacao = 'Aprovado'
-console.log(tag `${aluno} está ${situacao}.`)
+console.log(tag`${aluno} está ${situacao}.`)
 
 

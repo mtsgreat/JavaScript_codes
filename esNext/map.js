@@ -1,15 +1,15 @@
 const { maxHeaderSize } = require("http");
 
 const tecnologias = new Map()
-tecnologias.set('react', {framework: false})
-tecnologias.set('angular', {framework: true})
+tecnologias.set('react', { framework: false })
+tecnologias.set('angular', { framework: true })
 
 
 console.log(tecnologias.get('angular'))
 
 
 const chavesVariadas = new Map([
-    [function () {}, 'Funçao'],
+    [function () { }, 'Funçao'],
     [{}, 'Objeto'],
     [123, 'Numero']
 ])
