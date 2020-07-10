@@ -1,7 +1,7 @@
 # JavaScript_codes
  No seguinte repositório constarão códigos de um curso de Desenvovimento Web que aborda os seguintes conteúdos:
 
-JavaScript: Fundamentos
+**JavaScript: Fundamentos**
 
 JavaScript: Estruturas de Controle
 
