@@ -1,0 +1,72 @@
+<table>
+    <caption>Produtos</caption>
+
+    <thead>
+        <!-- Colunas da Tabela -->
+        <tr>
+            <!-- cabeçalhos da tabela -->
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+
+    <!-- Corpo da Tabela -->
+    <!-- tr é uma linha -->
+    <tbody>
+        <tr>
+            <td>iPad</td>
+            <td>3289,00</td>
+            <td>5</td>
+            <td>16445,00</td>
+        </tr>
+
+        <tr>
+            <td>PlayStation 5</td>
+            <td>7500,99</td>
+            <td>1</td>
+            <td>7500,99</td>
+        </tr>
+    </tbody>
+
+    <!-- Rodapé da Tabela -->
+    <tfoot>
+        <tr>
+            <!-- colspan = ocupa mais de um espaço da coluna -->
+            <!-- rowspan = ocupa mais de uma linha -->
+            <td colspan="3" >Total</td>
+            <td>23.945</td>
+        </tr>
+    </tfoot>
+</table>
+
+
+<!-- aplicando css a Tabela -->
+
+<style>
+    table {
+        /* tirando a borda */
+        border-collapse: collapse;
+    }
+
+    th, td {
+        /* espaçando os elementos */
+        padding: 10px;
+    }
+
+    thead tr {
+        border-bottom: solid 3px rgb(199, 34, 34);
+    }
+
+    tbody tr:hover {
+        background-color: rgb(199, 34, 34);
+        color: white;
+    }
+
+    tfoot {
+        background-color: #444;
+        color: white;
+        font-weight: bold;
+    }
+</style>
