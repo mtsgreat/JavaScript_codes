@@ -3,19 +3,19 @@
 
 **JavaScript: Fundamentos**
 
-JavaScript: Estruturas de Controle
+**JavaScript: Estruturas de Controle**
 
-JavaScript: Função
+**JavaScript: Função**
 
-JavaScript: Objeto
+**JavaScript: Objeto**
 
-JavaScript: Array
+**JavaScript: Array**
 
-Node
+**Node**
 
-Esnext
+**Esnext**
 
-Conceitos sobre Web
+**Conceitos sobre Web**
 
 HTML (EM ANDAMENTO)
 
