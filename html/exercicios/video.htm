@@ -1,0 +1,77 @@
+<video id="meuVideo" width="800" height="450" controls controlsList="nodownload">
+    <source src="http://files.cod3r.com.br/curso-web/video.mp4" type="video/mp4">
+</video>
+
+<div wm-progresso="meuVideo" class="progresso">
+    <div id="barra_progresso"></div>
+</div>
+
+
+<div>
+    <button onclick="play()">Play</button>
+    <button onclick="pause()">Pause</button>
+</div>
+
+
+<script>
+
+    var myVideo = document.getElementById('meuVideo')
+    var barraProgresso = document.getElementById("barra_progresso")
+
+
+    function play() {
+        if (myVideo.paused) {
+
+            myVideo.play();
+
+            var update = setInterval(atualizarBarra, 500);
+
+        }
+    }
+
+    function atualizarBarra() {
+        var current = myVideo.currentTime
+        var duracaoVideo = myVideo.duration
+
+
+        if (!myVideo.paused) {
+
+            var resultado = ( 507 * current) / duracaoVideo;
+
+            barraProgresso.style.width = parseInt(resultado) + 'px';
+            barraProgresso.innerHTML = `${resultado.toFixed(1)} %`;
+
+
+        }
+    }
+
+    function pause() {
+        if (myVideo.play) {
+            myVideo.pause();
+        }
+
+    }
+
+</script>
+
+
+
+<style>
+    .progresso {
+        height: 20px;
+        width: 500px;
+        border: solid 1px #444;
+        margin: 20px;
+    }
+
+
+
+    #barra_progresso {
+        background-color: red;
+        color: #fff;
+        height: 100%;
+        text-align: right;
+        font-size: 15px;
+        width: 0%;
+    }
+</style>
