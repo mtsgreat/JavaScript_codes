@@ -17,9 +17,9 @@
 
 **Conceitos sobre Web**
 
-HTML (EM ANDAMENTO)
+**HTML** 
 
-CSS
+CSS (EM ANDAMENTO)
 
 Integrando HTML, CSS e JS
 
