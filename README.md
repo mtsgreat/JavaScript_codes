@@ -19,9 +19,9 @@
 
 **HTML** 
 
-CSS (EM ANDAMENTO)
+**CSS** 
 
-Integrando HTML, CSS e JS
+Integrando HTML, CSS e JS (EM ANDAMENTO)
 
 Ajax
 
